@@ -14,7 +14,7 @@ spec:
       hostNetwork: false
       containers:
       - name: cron-chart
-        image: master.cfc:8500/admin/cron:latest
+        image: master.cfc:8500/default/cron:latest
         imagePullPolicy: Always
         ports:
         - protocol: TCP
